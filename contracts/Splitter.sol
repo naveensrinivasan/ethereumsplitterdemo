@@ -1,5 +1,8 @@
 pragma solidity ^0.4.23;
-contract Splitter is Destructible{
+import "./Destructible.sol";
+
+
+contract Splitter is Destructible {
     using SafeMath for uint256;
 
     uint256 public constant TOTAL = 100;
